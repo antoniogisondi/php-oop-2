@@ -3,9 +3,9 @@
     public $material;
     public $size;
 
-    public function __construct(String $_name, String $_image, Float $_price, String $_category, String $_material, Float $_size,){
-       parent::__construct($_name, $_image, $_price, $_category);
-       $this->materials = $_materials;
+    public function __construct($name, $image, $price, $category, $material, $size,){
+       parent::__construct($name, $image, $price, $category);
+       $this->materials = $materials;
        $this->size = $size;
     }
    } 

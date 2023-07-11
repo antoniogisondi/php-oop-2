@@ -5,11 +5,11 @@
         public $price;
         public $category;
 
-        public function __construct(String $_name, String $_image, Float $_price, String $_category){
-            $this->name = $_name;
-            $this->image = $_image;
-            $this->price = $_price;
-            $this->category = $_category;
+        public function __construct($name, $image, $price, $category){
+            $this->name = $name;
+            $this->image = $image;
+            $this->price = $price;
+            $this->category = $category;
         }
 
     }
