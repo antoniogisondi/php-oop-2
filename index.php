@@ -1,6 +1,6 @@
 <?php 
     require __DIR__.'/models/product.php';
-    require __DIR__.'/models/utility.php';
+    require __DIR__.'/models/accessories.php';
     require __DIR__.'/models/games.php';
     require __DIR__.'/models/food.php';
     require __DIR__.'/db.php.php';
@@ -14,6 +14,10 @@
         <title>Boolshop</title>
     </head>
     <body>
-        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+        </div>
     </body>
 </html>
