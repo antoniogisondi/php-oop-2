@@ -1,5 +1,9 @@
 <?php 
-    
+    require __DIR__.'/models/product.php';
+    require __DIR__.'/models/utility.php';
+    require __DIR__.'/models/games.php';
+    require __DIR__.'/models/food.php';
+    require __DIR__.'/db.php.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
