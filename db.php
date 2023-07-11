@@ -8,7 +8,13 @@
     ]; 
 
     $accessories = [
-        new Accessories('Kong Classic', 'https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg', 13,49, 'Cane', 'Galleggia e rimbalza', '8,5cm x 10cm'),
-        new Accessories('Topini di peluche Trixie', 'https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg', 'Gatto', 4,99, 'Morbido con codina in corda', '8.5cm x 10cm'),
-    ]
+        new Accessories('Voliera Wilma in Legno', 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', 184.99, 'Uccello', 'Legno', 'M: L 83 x P 67 x H 153 cm'),
+        new Accessories('Cartucce Filtranti per Filtro EasyCrystal', 'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', 2.29, 'Pesce', 'Materiale espanso', 'N/D'),
+    ];
+
+    $games = [
+        new Games('Kong Classic', 'https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg', 13.49, 'Cane', '8,5cm x 10cm', 'Galleggia e rimbalza',),
+        new Games('Topini di peluche Trixie', 'https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg', 4.99, 'Gatto', '8.5cm x 10cm', 'Morbido con codina in corda')
+    ];
+    
 ?>
