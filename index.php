@@ -4,7 +4,6 @@
     require __DIR__.'/models/games.php';
     require __DIR__.'/models/food.php';
     require __DIR__.'/db.php';
- 
 ?>
 
 <!DOCTYPE html>
@@ -17,13 +16,24 @@
         <title>Boolshop</title>
     </head>
     <body>
-        <div class="container-fluid">
+        <header class="container-fluid bg-black">
             <div class="row">
-                <div class="col d-flex flex-wrap justify-content-center">
+                <div class="col">
+                    <h1>BoolShop</h1>
+                </div>
+            </div>
+        </header>
 
+        <main class="container-fluid">
+            <div class="row">
+                <h3>I nostri prodotti:</h3>
+                <div class="col d-flex flex-wrap justify-content-center">
+                
                     <?php foreach($foods as $food) { ?>
-                    <div class="card">
-                        <img src="<?php echo $food->image; ?>">
+                    <div class="card width">
+                        <div class="img-container">
+                            <img src="<?php echo $food->image; ?>">
+                        </div>
                         <div class="card-body">
                             <div class="card-title">
                                 <h4><?php echo $food->name ?></h4>
@@ -37,8 +47,10 @@
                     <?php } ?>
 
                     <?php foreach($accessories as $accessory) { ?>
-                     <div class="card">
-                        <img src="<?php echo $accessory->image ?>">
+                     <div class="card width">
+                        <div class="img-container">
+                            <img src="<?php echo $accessory->image ?>">
+                        </div>
                         <div class="card-body">
                             <div class="card-title">
                                 <h4><?php echo $accessory->name ?></h4>
@@ -52,8 +64,10 @@
                     <?php } ?>
 
                     <?php foreach($games as $game) { ?>
-                     <div class="card">
-                        <img src="<?php echo $game->image ?>">
+                     <div class="card width">
+                        <div class="img-container">
+                            <img src="<?php echo $game->image ?>">
+                        </div>
                         <div class="card-body">
                             <div class="card-title">
                                 <h4><?php echo $game->name ?></h4>
@@ -67,6 +81,6 @@
                     <?php } ?>
                 </div>
             </div>
-        </div>
+        </main>
     </body>
 </html>

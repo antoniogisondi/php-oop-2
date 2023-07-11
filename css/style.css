@@ -5,5 +5,12 @@
 }
 
 img {
-    width: 350px;
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.width {
+    width: 21rem;
+    margin: 20px;
 }
